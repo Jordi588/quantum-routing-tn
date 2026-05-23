@@ -1,0 +1,48 @@
+# services:
+#   api:
+#     build: .
+#     ports:
+#       - "8000:8000"
+
+services:
+
+  api:
+    build: .
+    container_name: quantum-routing-api
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - .:/app
+
+    command: >
+      uvicorn app.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+
+  jupyter:
+    build: .
+    container_name: quantum-routing-jupyter
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - .:/app
+
+    # command: >
+    #   jupyter lab
+    #   --ip=0.0.0.0
+    #   --port=8888
+    #   --no-browser
+    #   --allow-root
+
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --NotebookApp.token=''

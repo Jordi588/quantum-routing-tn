@@ -1,0 +1,46 @@
+# fastapi
+# uvicorn
+# sqlalchemy
+# psycopg2-binary
+# pydantic
+# pytest
+# httpx
+
+
+# fastapi
+# uvicorn
+# numpy
+# scipy
+# networkx
+# matplotlib
+# pandas
+# qiskit
+# qiskit-aer
+# qiskit-optimization
+# quimb
+# cotengra
+# jupyter
+
+
+fastapi
+uvicorn
+
+numpy
+scipy
+pandas
+matplotlib
+networkx
+
+jupyterlab
+ipykernel
+
+qiskit
+qiskit-aer
+qiskit-optimization
+
+quimb
+cotengra
+
+python-multipart
+
+pylatexenc
