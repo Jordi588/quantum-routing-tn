@@ -1,9 +1,3 @@
-# services:
-#   api:
-#     build: .
-#     ports:
-#       - "8000:8000"
-
 services:
 
   api:
@@ -31,13 +25,6 @@ services:
 
     volumes:
       - .:/app
-
-    # command: >
-    #   jupyter lab
-    #   --ip=0.0.0.0
-    #   --port=8888
-    #   --no-browser
-    #   --allow-root
 
     command: >
       jupyter lab
