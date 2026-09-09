@@ -1,0 +1,2 @@
+clientes,qubits,depth,time_statevector_s,time_mps_s,fidelity,energy_statevector,energy_mps,energy_error,chi_max
+3,9,2,0.016608354009804316,0.17050828599894885,0.253348544878169,-187.3991960380555,-186.48802769430753,0.9111683437479599,16

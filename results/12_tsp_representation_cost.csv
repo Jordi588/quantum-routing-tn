@@ -1,0 +1,2 @@
+qubits,statevector_amplitudes,mps_tensor_elements,compression_ratio,mps_fraction_percent,statevector_memory_GB,mps_memory_GB_est,chi_max
+16,65536,109224,0.6000146487951366,166.66259765625,0.0009765625,0.0016275644302368164,128

@@ -1,0 +1,2 @@
+clientes,qubits,depth,time_statevector_s,time_mps_s,speedup_sv_over_mps,norm_exact,norm_MPS,overlap,fidelity,infidelity,energy_statevector,energy_mps,energy_error,chi_max
+3,9,2,0.008977063989732414,0.16055212501669303,0.055913703968720724,1.0,0.9999999999999991,1.0,1.0,0.0,-187.3991960380555,-187.3991960380573,1.8189894035458565e-12,16
